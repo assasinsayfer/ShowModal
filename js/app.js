@@ -9,6 +9,8 @@ const btn3 = document.querySelector(".btn-3");
 const displayNone = document.querySelector(".display-none");
 const modalContent = document.querySelector(".modal-content");
 
+const icon = document.querySelector(".fa-solid");
+
 // * Functions
 function functionStart() {
   displayNone.classList.remove("display-none");
@@ -29,6 +31,8 @@ function functionEnd() {
 btn1.addEventListener("click", functionStart);
 btn2.addEventListener("click", functionStart);
 btn3.addEventListener("click", functionStart);
+
+icon.addEventListener("click", functionEnd);
 
 // * Callbacks
 document.addEventListener("keydown", function (e) {
