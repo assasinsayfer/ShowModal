@@ -11,9 +11,6 @@ body {
   font-family: sans-serif;
 }
 
-button {
-  filter: brightness(0.9) contrast(9.2);
-}
 
 /**** Main styles ***/
 .modal .container__btn {
@@ -54,7 +51,7 @@ button {
 }
 
 .modal-color {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
 .display-none {
