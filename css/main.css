@@ -1,0 +1,35 @@
+/* *** default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  box-sizing: border-box;
+  background: linear-gradient(90deg, rgb(58, 240, 58), rgb(101, 233, 101));
+}
+/**** Main styles ***/
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  gap: 120px;
+}
+
+.btn {
+  margin-top: 40px;
+  height: 50px;
+  width: 170px;
+  border: none;
+  border-radius: 25px;
+  font-size: 18px;
+  font-weight: 600;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
